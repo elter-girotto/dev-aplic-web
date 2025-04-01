@@ -6,6 +6,11 @@ app.get('/', (req, res) => {
     console.log('New feature')
 })
 
+
+app.get('/feature2', (req, res) => {
+    console.log('New feature2')
+})
+
 app.get('/', (req, res) => {
     console.log('New feature3')
 })
